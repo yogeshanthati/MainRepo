@@ -22,7 +22,7 @@ public abstract class TestBase extends Constants {
 	public static Properties prop;
 	protected  abstract  void  VerifyValidPage();
 	protected abstract void WaitForPageLoad();
-	
+	//This is the Test Base
 	public TestBase(){
 	PageFactory.initElements(driver, this);
 	VerifyValidPage();
